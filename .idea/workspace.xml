@@ -1,32 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb0fc29-c50d-4e2c-ae74-3dcdecc665b0" name="Default Changelist" comment="" />
+    <list default="true" id="5bb0fc29-c50d-4e2c-ae74-3dcdecc665b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assignment/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/CalculatorVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Exceptions/MalformedExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Operand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pWQRqzJvroU1KmdyeTcewBDPUC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment/src" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\VIA\S4\ADS\Assignment1\assignment\src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,10 +89,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615296361280</updated>
+      <workItem from="1615297754011" duration="6202000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1615301992424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1615301992424" />
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1615298229718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1615298229718" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1615300515262">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615300515262" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1615298086769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615298086769" />
+    <state x="484" y="200" key="git4idea.merge.GitPullDialog" timestamp="1615297799645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1615297799645" />
+    <state x="557" y="313" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615297785642">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="557" y="313" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1615297785642" />
     <state x="91" y="0" key="new project wizard" timestamp="1615296567395">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
