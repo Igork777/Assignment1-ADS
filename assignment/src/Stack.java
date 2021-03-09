@@ -1,6 +1,9 @@
+import Exceptions.EmptyListException;
+
 import java.util.EmptyStackException;
 
 public interface Stack<T> {
-    public void push(T elem);
-    public T pop() throws EmptyStackException;
+   boolean isEmpty();
+   void push(T elm);
+   T pop() throws EmptyStackException, EmptyListException;
 }

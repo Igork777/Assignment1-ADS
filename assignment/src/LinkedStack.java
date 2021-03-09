@@ -1,17 +1,22 @@
+import Exceptions.EmptyListException;
+
 import java.util.EmptyStackException;
-import java.util.LinkedList;
 
 public class LinkedStack<T> implements Stack<T> {
-
-    private LinkedList<T> list = new LinkedList<T>();
+    LinkedList<T> list;
 
     @Override
-    public void push(T elem) {
-        list.add(elem);
+    public boolean isEmpty() {
+        return list.isEmpty();
     }
 
     @Override
-    public T pop() throws EmptyStackException {
-        return list.pop();
+    public void push(T elm) {
+        list.addToFront(elm);
+    }
+
+    @Override
+    public T pop() throws EmptyStackException, EmptyListException {
+        return list.removeFirst();
     }
 }

@@ -4,11 +4,15 @@ import java.util.LinkedList;
 
 public class CalculatorVisitor implements Visitor, Calculator {
 
-    private LinkedList<Token> tokenStack;
+    private LinkedList<Token> tokenStack = new LinkedList<Token>();
 
     @Override
     public int getResult() throws MalformedExpressionException {
-        return 0;
+        if (tokenStack.size() != 1){
+            throw new MalformedExpressionException();
+        }else{
+            return ((Operand)tokenStack.pop()).getValue();
+        }
     }
 
     @Override
