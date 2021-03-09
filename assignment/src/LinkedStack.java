@@ -3,7 +3,7 @@ import Exceptions.EmptyListException;
 import java.util.EmptyStackException;
 
 public class LinkedStack<T> implements Stack<T> {
-    LinkedList<T> list;
+    LinkedList<T> list = new LinkedList<>();
 
     @Override
     public boolean isEmpty() {
@@ -18,5 +18,9 @@ public class LinkedStack<T> implements Stack<T> {
     @Override
     public T pop() throws EmptyStackException, EmptyListException {
         return list.removeFirst();
+    }
+
+    public int size(){
+        return list.size();
     }
 }

@@ -1,6 +1,7 @@
 import Exceptions.MalformedExpressionException;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Client {
     private CalculatorVisitor visitor = new CalculatorVisitor();
@@ -19,13 +20,31 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
 
-        ArrayList<Token> tokenArrayList = new ArrayList<>();
+        ArrayList<Token> tokenArrayList1 = new ArrayList<>(Arrays.asList(
+            new Operand(5),
+            new Operand(2),
+            new Operator(Operation.PLUS),
+            new Operand(1),
+            new Operator(Operation.PLUS)
+        ));
+        System.out.println("5 + 2 + 1 = " + client.evaluateExpression(tokenArrayList1));
 
-        tokenArrayList.add(new Operand(5));
-        tokenArrayList.add(new Operand(2));
-        tokenArrayList.add(new Operator(Operation.PLUS));
+        ArrayList<Token> tokenArrayList2 = new ArrayList<>(Arrays.asList(
+                new Operand(5),
+                new Operand(2),
+                new Operator(Operation.MINUS),
+                new Operand(1),
+                new Operator(Operation.MINUS)
+        ));
+        System.out.println("5 - 2 - 1 = " + client.evaluateExpression(tokenArrayList2));
 
-        int res = client.evaluateExpression(tokenArrayList);
-        System.out.println("5 + 2 = " + res);
+        ArrayList<Token> tokenArrayList3 = new ArrayList<>(Arrays.asList(
+                new Operand(5),
+                new Operand(2),
+                new Operator(Operation.MULTIPLY),
+                new Operand(2),
+                new Operator(Operation.MULTIPLY)
+        ));
+        System.out.println("5 * 2 * 2 = " + client.evaluateExpression(tokenArrayList3));
     }
 }
