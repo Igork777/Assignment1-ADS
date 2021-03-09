@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bb0fc29-c50d-4e2c-ae74-3dcdecc665b0" name="Default Changelist" comment="" />
+    <list default="true" id="5bb0fc29-c50d-4e2c-ae74-3dcdecc665b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Exceptions/EmptyListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/src/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/src/List.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pWQRqzJvroU1KmdyeTcewBDPUC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
@@ -39,9 +67,33 @@
       <option name="presentableId" value="Default" />
       <updated>1615296361280</updated>
     </task>
+    <task id="LOCAL-00001" summary="hey">
+      <created>1615296621301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615296621301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hey" />
+    <option name="LAST_COMMIT_MESSAGE" value="hey" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="776" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1615302851861">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="776" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1615302851861" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1615296619342">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615296619342" />
+    <state x="233" y="66" key="Vcs.Push.Dialog.v2" timestamp="1615296623877">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="66" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615296623877" />
     <state x="91" y="0" key="new project wizard" timestamp="1615296567395">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
