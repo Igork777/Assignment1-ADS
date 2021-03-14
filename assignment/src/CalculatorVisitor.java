@@ -1,16 +1,13 @@
 import Exceptions.EmptyListException;
 import Exceptions.MalformedExpressionException;
 
-import java.util.EmptyStackException;
-import java.util.LinkedList;
-
 public class CalculatorVisitor implements Visitor, Calculator {
 
-    private LinkedStack<Token> tokenStack = new LinkedStack<Token>();
+    private final LinkedStack<Token> tokenStack = new LinkedStack<Token>();
 
     @Override
     public int getResult() throws MalformedExpressionException {
-        if (tokenStack.size() != 1) {
+        if (tokenStack.list.size != 1) {
             throw new MalformedExpressionException();
         } else {
             try {

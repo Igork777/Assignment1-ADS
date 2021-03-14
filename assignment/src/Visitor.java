@@ -1,4 +1,4 @@
 public interface Visitor {
-    public void visit(Operand operand);
-    public void visit(Operator operator);
+    void visit(Operand operand);
+    void visit(Operator operator);
 }

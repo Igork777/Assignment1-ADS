@@ -1,5 +1,6 @@
 import Exceptions.EmptyListException;
 
+
 public class LinkedList<T> implements List<T>{
     Node<T> head;
     int size=0;
@@ -11,7 +12,9 @@ public class LinkedList<T> implements List<T>{
 
     @Override
     public int size() {
-        int size = 0;
+        if (head == null){ return 0; }
+        int size = 1;
+
         for(Node n = head; n.getNext() != null; n = n.getNext())
             size++;
         return size;
@@ -28,12 +31,15 @@ public class LinkedList<T> implements List<T>{
 
     @Override
     public T removeFirst() throws EmptyListException {
-        if ( isEmpty() )
+        if ( isEmpty() ){
             throw new EmptyListException("LinkedList is empty");
+        }
+
 
         Node<T> temp = head;
         head = head.getNext();
         temp.setNext(null);
+
         size --;
         return temp.getData();
     }

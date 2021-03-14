@@ -6,7 +6,7 @@ public class Node<T> {
     }
 
     void setData(T data){
-        data = data;
+        this.data = data;
     }
     T getData(){
         return data;
